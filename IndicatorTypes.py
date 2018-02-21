@@ -41,7 +41,7 @@ DOMAIN = IndicatorTypes(name="domain",
 HOSTNAME = IndicatorTypes(name="hostname",
                           description="The hostname for a server located within a domain.",
                           api_support=True,
-                          sections=["general", "geo", "malware", "url_list", "passive_dns","whois"],
+                          sections=["general", "geo", "malware", "url_list", "passive_dns","whois","http_scans"],
                           slug="hostname")
 EMAIL = IndicatorTypes(name="email", description="An email associated with suspicious activity.")
 URL = IndicatorTypes(name="URL",
